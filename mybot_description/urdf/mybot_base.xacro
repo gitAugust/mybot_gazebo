@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Revolute-Revolute Manipulator -->
+<robot name="mybot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find mybot_description)/urdf/myelement_base.xacro" />
+
+  <mbot_base_gazebo />
+
+</robot>
